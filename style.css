@@ -1,0 +1,173 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans&family=Ubuntu&family=VT323&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Noto+Sans&family=Ubuntu&family=VT323&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Noto+Sans&family=Righteous&family=Ubuntu&family=VT323&display=swap');
+
+body {
+  background-color:#7D84B2;
+}
+
+.header {
+  font-family:'Righteous', cursive;
+  color:#320E3B;
+  text-align:center;
+  font-size:3vmax;
+}
+
+form {
+  font-size:1.5vmax;
+  color:#111D4A;
+  font-family:'Noto Sans', sans-serif;
+}
+
+input, select, .confirm{
+  font-size:1vmax;
+  color:#111D4A;
+  font-family:'Noto Sans', sans-serif;
+  border: 4px solid #320E3B;
+}
+
+.option {
+  display:inline;
+}
+
+.flex-container{
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  text-align:center;
+  flex-direction:column;
+}
+
+.question {
+  font-size:2.5vmax;
+  margin-top:70px;
+  border: 4px solid #320E3B;
+  padding:0.5vmax;
+}
+
+label.option{
+  margin-right:40px;
+}
+
+.basic_info {
+  margin-top:2vmax;
+  margin-right:40px;
+}
+
+footer {
+  text-align:center;
+  font-size:1.5vmax;
+  margin:100px;
+  font-family:'Noto Sans', sans-serif;
+  color:#111D4A;
+}
+
+#instructions p {
+  font-size:1.5vmax;
+  color:#111D4A;
+  font-family:'Noto Sans', sans-serif;
+}
+
+#instructions {
+  width:40%;
+}
+
+.question_containers label {
+  font-size:2vmax;
+}
+
+ .confirm {
+  font-size:2.5vmax;
+  border: 4px solid #320E3B;
+  padding:0.5vmax;
+}
+
+.lifelines{
+  display:inline-block;
+  font-size:1.5vmax;
+  border: 3px solid #320E3B;
+  padding:0.3vmax;
+  text-align:center;
+  margin:0vmax 2vmax;
+}
+.lifelines:hover {
+  cursor:pointer;
+}
+
+input.basic_info:invalid {
+  border: 4px dotted red;
+}
+
+header {
+  margin-bottom:2vmax;
+}
+
+#flex-container {
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  flex-direction:column;
+}
+body {
+  background-color:#7D84B2;
+  padding:20px;
+  font-family:'Noto Sans', sans-serif;
+  color:#111D4A;
+}
+th {
+  padding:5px 10px;
+  border: 3px solid black;
+  font-size:1vmax;
+  font-family:'Noto Sans', sans-serif;
+  color:#111D4A;
+}
+.correct {
+  background-color:#317B22;
+}
+.incorrect {
+  background-color:#92140C;
+}
+
+#results_header, #correct_count, #demo_info {
+  font-family:'Righteous', cursive;
+  color:#320E3B;
+  text-align:center;
+  font-size:3vmax;
+}
+
+#play_again {
+  margin-top: 2vmax;
+  padding:5px;
+  border: 3px solid black;
+  font-size:1vmax;
+  font-family:'Noto Sans', sans-serif;
+  color:#111D4A;
+}
+
+#info_p {
+  font-size:1.5vmax;
+  font-family:'Noto Sans', sans-serif;
+  color:#111D4A;
+  padding:0.5vmax;
+  text-align:center;
+  width:70%;
+}
+
+footer {
+  text-align:center;
+  font-size:1.5vmax;
+  margin:100px;
+  font-family:'Noto Sans', sans-serif;
+  color:#111D4A;
+}
+#warning {
+  color:red;
+  font-size:4vmax;
+}
+.life_line_label {
+  margin:1vmax;
+  margin-top:2vmax;
+}
+.hidden {
+  display:none;
+}
